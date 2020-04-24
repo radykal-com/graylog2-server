@@ -18,19 +18,19 @@ package org.graylog2.plugin.configuration.fields;
 
 import java.util.Map;
 
-public class DropdownField extends AbstractChoiceField {
+public class RadioField extends AbstractChoiceField {
 
-    public static final String FIELD_TYPE = "dropdown";
+    public static final String FIELD_TYPE = "radio";
 
-    public DropdownField(String name, String humanName, String defaultValue, Map<String, String> values, Optional isOptional) {
+    public RadioField(String name, String humanName, String defaultValue, Map<String, String> values, Optional isOptional) {
         super(FIELD_TYPE, name, humanName, defaultValue, values, isOptional);
     }
 
-    public DropdownField(String name, String humanName, String defaultValue, Map<String, String> values, String description, Optional isOptional) {
+    public RadioField(String name, String humanName, String defaultValue, Map<String, String> values, String description, Optional isOptional) {
         super(FIELD_TYPE, name, humanName, defaultValue, values, description, isOptional);
     }
 
-    public DropdownField(String name, String humanName, String defaultValue, Map<String, String> values, String description, Optional isOptional, int position) {
+    public RadioField(String name, String humanName, String defaultValue, Map<String, String> values, String description, Optional isOptional, int position) {
         super(FIELD_TYPE, name, humanName, defaultValue, values, description, isOptional, position);
     }
 }
