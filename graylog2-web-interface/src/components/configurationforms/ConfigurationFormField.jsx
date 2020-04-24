@@ -7,6 +7,7 @@ import {
   ListField,
   NumberField,
   TextField,
+  RadioField,
 } from 'components/configurationforms';
 
 export default class ConfigurationFormField extends React.Component {
@@ -81,6 +82,16 @@ export default class ConfigurationFormField extends React.Component {
                      autoFocus={autoFocus}
                      addPlaceholder />
         );
+      case 'radio':
+        return (
+          <RadioField key={elementKey}
+                      typeName={typeName}
+                      title={configKey}
+                      field={configField}
+                      value={configValue}
+                      onChange={onChange}
+                      autoFocus={autoFocus} />
+        )
       default:
         return null;
     }
