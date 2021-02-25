@@ -165,7 +165,7 @@
         <assertj-joda-time.version>2.2.0</assertj-joda-time.version>
         <assertj-json.version>1.2.0</assertj-json.version>
         <awaitility.version>3.1.3</awaitility.version>
-        <equalsverifier.version>3.4.1</equalsverifier.version>
+        <equalsverifier.version>3.5.5</equalsverifier.version>
         <jukito.version>1.5</jukito.version>
         <junit.version>4.13.1</junit.version>
         <junit-jupiter.version>5.7.0</junit-jupiter.version>
