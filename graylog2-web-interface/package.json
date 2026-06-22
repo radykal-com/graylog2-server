@@ -156,7 +156,7 @@
     "jiti": "^2.6.0",
     "json-loader": "^0.5.3",
     "less": "^4.4.1",
-    "less-loader": "^12.3.0",
+    "less-loader": "^13.0.0",
     "node-fetch": "^2.6.1",
     "oxfmt": "^0.47.0",
     "puppeteer": "^24.19.0",
